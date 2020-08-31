@@ -1,65 +1,91 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { useEffect, useState } from "react";
+import {
+  motion,
+  useViewportScroll,
+  useSpring,
+  useTransform,
+} from "framer-motion";
+import Main from '../components/main'
+import Subscribe from "../components/subscribe";
+import Layout from "../components/Layout";
 
-export default function Home() {
+function Index() {
+  const [isComplete, setIsComplete] = useState(false);
+  const { scrollYProgress } = useViewportScroll();
+  const yRange = useTransform(scrollYProgress, [0, 0.9], [0, 1]);
+  const pathLength = useSpring(yRange, { stiffness: 400, damping: 90 });
+  useEffect(() => yRange.onChange((v) => setIsComplete(v >= 1)), [yRange]);
+
+  const features = [
+    {
+      title: "Progressive Web Applications (PWA)",
+      description:
+        "Responsive design that works in any browser. Service workers enable for fast reloading ",
+    },
+    {
+      title: "Server-side rendering (SSR)",
+      description:
+        "Web pages are prepoluated with user data directly from server-side, increasing performance and providing consistent SEO",
+    },
+    {
+      title: "Pragmatic design",
+      description:
+        "Leveraging material design principles, sites are designed for practical applications specific to each business",
+    },
+    {
+      title: "Seamless API Integration",
+      description:
+        "Integration directly into social media platforms allows for coordinated marketing campaigns",
+    },
+    {
+      title: "Data Analytics",
+      description:
+        "Built-in data analytics allow for effective tracking of the progress and success of each add campaign",
+    },
+    {
+      title: "White-hat SEO",
+      description:
+        "Organic SEO strategies that providing long-lasting, front-page results",
+    },
+    {
+      title: "Keyword Research",
+      description:
+        "Leveraging Google Analytics data, robust semantic analysis provides for prominent search engine results",
+    },
+  ];
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <svg className="progress-icon" viewBox="0 0 60 60">
+        <motion.path
+          fill="none"
+          strokeWidth="5"
+          stroke="#111"
+          strokeDasharray="0 1"
+          d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+          style={{
+            pathLength,
+            rotate: 90,
+            translateX: 5,
+            translateY: 5,
+            scaleX: -1, // Reverse direction of line animation
+          }}
+        />
+        <motion.path
+          fill="none"
+          strokeWidth="5"
+          stroke="#111"
+          d="M14,26 L 22,33 L 35,16"
+          initial={false}
+          strokeDasharray="0 1"
+          animate={{ pathLength: isComplete ? 1 : 0 }}
+        />
+      </svg>
+      <Main features={features} />
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+      <Subscribe />
+      <style jsx>{``}</style>
+    </Layout>
+  );
 }
+
+export default Index;
