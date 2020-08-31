@@ -1,4 +1,4 @@
-import Card from '../components/Card';
+import Card from './Card';
 
 function Main(props) {
   return (
@@ -23,7 +23,7 @@ function Main(props) {
           padding-top: 30vh;
           margin-left: 0;
           background-color: #fff;
-          padding-left: 10vw;
+          /* padding-left: 20vw; */
         }
         .cards {
           padding-top: 6rem;

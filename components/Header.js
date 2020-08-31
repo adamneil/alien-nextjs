@@ -25,7 +25,7 @@ const Header = () => (
           padding: 30px 10%;
           vertical-align: middle;
           width: 100%;
-          padding-left: 10vw
+          // padding-left: 20vw
 
         }
         a {

@@ -5,7 +5,7 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion";
-import Main from '../components/main'
+import Main from '../components/Main'
 import Subscribe from "../components/subscribe";
 import Layout from "../components/Layout";
 

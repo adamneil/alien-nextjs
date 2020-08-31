@@ -54,7 +54,6 @@ const Layout = (props) => (
 
       body {
         margin: 0px auto;
-        padding: 0;
         letter-spacing: -0.02em;
 
         font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -79,6 +78,7 @@ const Layout = (props) => (
         flex-direction: column;
         height: 100%;
         width: 100%;
+
       }
 
       .Content {
