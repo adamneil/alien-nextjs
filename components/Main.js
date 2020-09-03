@@ -20,10 +20,12 @@ function Main(props) {
           flex-direction: column;
           width: 100%;
           color: var(--gray1);
-          padding-top: 30vh;
+          padding-top: 10vh;
           margin-left: 0;
           background-color: #fff;
-          /* padding-left: 20vw; */
+          align-items: center
+          
+
         }
         .cards {
           padding-top: 6rem;
@@ -49,7 +51,8 @@ function Main(props) {
           line-height: 1.6em;
           padding-top: 1em;
           color: #666666;
-          flex: 1 1
+          flex: 1 1;
+          text-align: center
         }
         @media only screen and (max-width: 1024px) {
           h1 {

@@ -31,9 +31,11 @@ function Content() {
           margin-left: 0;
           background-color: var(--gray1);
           padding-top: 30vh;
-          padding-bottom: 100px
+          padding-bottom: 100px;
+          box-shadow:0 20rem 0px 20rem var(--gray1)
 
         }
+
         a {
           text-decoration: none;
           color: white;

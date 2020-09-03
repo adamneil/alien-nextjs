@@ -78,7 +78,6 @@ const Layout = (props) => (
         flex-direction: column;
         height: 100%;
         width: 100%;
-
       }
 
       .Content {
@@ -87,6 +86,7 @@ const Layout = (props) => (
         flex-direction: column;
         width: 100%;
       }
+
       .progress-icon {
         position: fixed;
         top: 90px;

@@ -7,11 +7,18 @@
    xmlns="http://www.w3.org/2000/svg"
    id="svg8"
    version="1.1"
-   viewBox="0 0 23.751822 31.428267"
-   height="31.428267mm"
-   width="23.751822mm">
+   viewBox="0 0 11.875923 15.714149"
+   height="15.714149mm"
+   width="11.875923mm">
   <defs
-     id="defs2" />
+     id="defs2">
+    <rect
+       id="rect16"
+       height="95.779915"
+       width="81.794838"
+       y="62.250721"
+       x="43.672077" />
+  </defs>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -25,27 +32,41 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-41.264514,-69.780061)"
+     transform="translate(-94.88901,-118.25141)"
      id="layer1">
-    <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.66667175px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot815"
-       xml:space="preserve"><flowRegion
-         id="flowRegion817"><rect
-           y="105.37683"
-           x="111.42857"
-           height="885.71429"
-           width="514.28571"
-           id="rect819" /></flowRegion><flowPara
-         id="flowPara821"></flowPara></flowRoot>    <text
-       id="text825"
-       y="101.20833"
-       x="35.529758"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.15555573px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+    <text
+       id="text12"
+       y="93.490623"
+       x="62.635159"
+       style="font-size:10.5833px;line-height:1.25;font-family:maj;-inkscape-font-specification:maj;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="stroke-width:0.26458332"
-         y="101.20833"
-         x="35.529758"
-         id="tspan823">B</tspan></text>
+         style="stroke-width:0.264583"
+         y="93.490623"
+         x="62.635159"
+         id="tspan10" /></text>
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';white-space:pre;shape-inside:url(#rect16);"
+       id="text14"
+       xml:space="preserve" />
+    <text
+       id="text22"
+       y="85.727974"
+       x="58.180695"
+       style="font-size:10.5833px;line-height:1.25;font-family:maj;-inkscape-font-specification:maj;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="85.727974"
+         x="58.180695"
+         id="tspan20" /></text>
+    <text
+       id="text32"
+       y="133.96556"
+       x="92.021629"
+       style="font-size:22.5778px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="133.96556"
+         x="92.021629"
+         id="tspan30">B</tspan></text>
   </g>
 </svg>

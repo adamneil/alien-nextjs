@@ -20,17 +20,17 @@ function Index() {
     {
       title: "Progressive Web Applications (PWA)",
       description:
-        "Responsive design that works in any browser. Service workers enable for fast reloading ",
+        "Responsive design that works in any browser. Service workers enable for fast reloading. ",
     },
     {
       title: "Server-side rendering (SSR)",
       description:
-        "Web pages are prepoluated with user data directly from server-side, increasing performance and providing consistent SEO",
+        "Web pages are prepopulated with user data directly from server-side, increasing performance and providing consistent SEO.",
     },
     {
       title: "Pragmatic design",
       description:
-        "Leveraging material design principles, sites are designed for practical applications specific to each business",
+        "Leveraging material design principles, sites are designed for practical applications specific to each business.",
     },
     {
       title: "Seamless API Integration",
@@ -81,7 +81,6 @@ function Index() {
         />
       </svg>
       <Main features={features} />
-
       <Subscribe />
       <style jsx>{``}</style>
     </Layout>
