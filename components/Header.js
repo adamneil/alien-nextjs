@@ -5,7 +5,7 @@ const Header = () => (
       href="/"
       style={{ color: "#111", textDecoration: "none" }}
     >
-      <img src="logo.svg" alt="logo" style={{ height: 20 }} />
+      <img src="logo.png" alt="logo" style={{ height: 20 }} />
       <span>Boomtown Development</span>
     </a>
 

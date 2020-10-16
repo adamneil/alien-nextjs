@@ -5,19 +5,19 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 11.875923 15.714149"
+   width="11.875923mm"
    height="15.714149mm"
-   width="11.875923mm">
+   viewBox="0 0 11.875923 15.714149"
+   version="1.1"
+   id="svg8">
   <defs
      id="defs2">
     <rect
-       id="rect16"
-       height="95.779915"
-       width="81.794838"
+       x="43.672077"
        y="62.250721"
-       x="43.672077" />
+       width="81.794838"
+       height="95.779915"
+       id="rect16" />
   </defs>
   <metadata
      id="metadata5">
@@ -32,41 +32,41 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-94.88901,-118.25141)"
-     id="layer1">
+     id="layer1"
+     transform="translate(-94.88901,-118.25141)">
     <text
-       id="text12"
-       y="93.490623"
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:maj;-inkscape-font-specification:maj;stroke-width:0.264583"
        x="62.635159"
-       style="font-size:10.5833px;line-height:1.25;font-family:maj;-inkscape-font-specification:maj;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="93.490623"
+       y="93.490623"
+       id="text12"><tspan
+         id="tspan10"
          x="62.635159"
-         id="tspan10" /></text>
+         y="93.490623"
+         style="stroke-width:0.264583" /></text>
     <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';white-space:pre;shape-inside:url(#rect16);"
+       xml:space="preserve"
        id="text14"
-       xml:space="preserve" />
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';white-space:pre;shape-inside:url(#rect16);" />
     <text
-       id="text22"
-       y="85.727974"
-       x="58.180695"
+       xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:maj;-inkscape-font-specification:maj;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="85.727974"
+       x="58.180695"
+       y="85.727974"
+       id="text22"><tspan
+         id="tspan20"
          x="58.180695"
-         id="tspan20" /></text>
+         y="85.727974"
+         style="stroke-width:0.264583" /></text>
     <text
-       id="text32"
-       y="133.96556"
-       x="92.021629"
+       xml:space="preserve"
        style="font-size:22.5778px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="133.96556"
+       x="92.021629"
+       y="133.96556"
+       id="text32"><tspan
+         id="tspan30"
          x="92.021629"
-         id="tspan30">B</tspan></text>
+         y="133.96556"
+         style="stroke-width:0.264583">B</tspan></text>
   </g>
 </svg>

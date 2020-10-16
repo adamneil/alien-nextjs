@@ -15,7 +15,7 @@ function Content() {
 
       <div className="footer">
         <h4>Boomtown Development</h4>
-        <img src="whitelogo.svg" alt="logo" style={{ height: 20 }} />
+        <img src="whitelogo.png" alt="logo" style={{ width: 20 }} />
         <a href="mailto: adam@boomtown.dev">adam@boomtown.dev</a>
         <a href="tel:701-404-9151">‪(701) 404-9151</a>
       </div> 
@@ -29,7 +29,7 @@ function Content() {
           height: 100vh;
           color: white;
           margin-left: 0;
-          background-color: var(--gray1);
+          background-color: var(--blue1);
           padding-top: 30vh;
           padding-bottom: 100px;
           box-shadow:0 20rem 0px 20rem var(--gray1)
@@ -45,6 +45,7 @@ function Content() {
         
         .footer {
           display: flex;
+          align-items: center;
           flex-direction: column;
         }
 
