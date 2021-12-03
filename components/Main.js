@@ -20,7 +20,7 @@ function Main(props) {
           flex-direction: column;
           width: 100%;
           color: var(--gray3);
-          padding-top: 20vh;
+          padding-top: 10vh;
           margin-left: 0;
           background: var(--gray0) url('binding-dark.png');
           align-items: center;

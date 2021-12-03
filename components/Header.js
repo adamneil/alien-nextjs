@@ -18,7 +18,7 @@ const Header = () => (
           align-items: center;
           text-align: center;
           background: var(--gray0) url("binding-dark.png");
-          padding: 30px 20%;
+          padding: 30px 10%;
           vertical-align: middle;
           width: 100%;
         }
