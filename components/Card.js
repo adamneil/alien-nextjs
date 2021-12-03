@@ -7,7 +7,8 @@ const Card = (props) => {
       <p>{props.description}</p>
       <style jsx>{`
         .card {
-          border: 1px solid var(--gray5);
+          border: 1px solid var(--green1);
+          background-color: var(--gray0);
           padding: 1.4rem;
           border-radius: 10px;
           text-align: left;
@@ -17,18 +18,22 @@ const Card = (props) => {
           transition: box-shadow 0.2s ease, border 0.2s ease;
         }
         h3 {
-          font-weight: 600;
+          font-weight: bold;
           font-size: 1.125em;
           line-height: 1.4;
-          padding-bottom: 0.4rem
+          letter-spacing: 0.1rem;
+          padding-bottom: 0.4rem;
+          font-family: "Gruppo";
+          color: var(--gray3);
         }
         p {
           font-size: 14px;
-          flex: 1 1
+          flex: 1 1;
+          color: var(--gray2);
         }
       `}</style>
     </div>
   );
 };
 
-export default Card
+export default Card;

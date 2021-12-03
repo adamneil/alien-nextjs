@@ -3,7 +3,7 @@ import Header from "./Header";
 const Layout = (props) => (
   <div className="Layout">
     <Head>
-      <title>Boomtown Web Dev</title>
+      <title>Alien Web Dev</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <link
@@ -14,12 +14,19 @@ const Layout = (props) => (
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
         rel="stylesheet"
       ></link>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Special+Elite&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
 
     <Header />
     <div className="Content">{props.children}</div>
     <style jsx global>{`
       :root {
+        --gray0: #242526;
         --gray1: #333333;
         --gray2: #4f4f4f;
         --gray3: #828282;
@@ -55,8 +62,9 @@ const Layout = (props) => (
       body {
         margin: 0px auto;
         letter-spacing: -0.02em;
+        font-weight: bold
 
-        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        font-family: "Gruppo", -apple-system, BlinkMacSystemFont, "Segoe UI",
           "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
           "Helvetica Neue", sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -69,9 +77,10 @@ const Layout = (props) => (
       h4,
       h5,
       h6 {
-        font-family: "Inter";
-        font-weight: 800;
+        font-family: "Special Elite";
+        font-weight: 400;
         letter-spacing: -0.07em;
+        margin-top: 100;
       }
       .Layout {
         display: flex;

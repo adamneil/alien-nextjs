@@ -5,7 +5,7 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion";
-import Main from '../components/Main'
+import Main from "../components/Main";
 import Subscribe from "../components/subscribe";
 import Layout from "../components/Layout";
 
@@ -59,7 +59,7 @@ function Index() {
         <motion.path
           fill="none"
           strokeWidth="5"
-          stroke="#111"
+          stroke="var(--green2)"
           strokeDasharray="0 1"
           d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
           style={{
@@ -73,7 +73,7 @@ function Index() {
         <motion.path
           fill="none"
           strokeWidth="5"
-          stroke="#111"
+          stroke="var(--green2)"
           d="M14,26 L 22,33 L 35,16"
           initial={false}
           strokeDasharray="0 1"

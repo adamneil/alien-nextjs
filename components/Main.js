@@ -1,17 +1,17 @@
-import Card from './Card';
+import Card from "./Card";
 
 function Main(props) {
   return (
     <div className="container">
-      <h1>Production-ready</h1>
-      <h1>websites</h1>
+      <h1>Out of this world</h1>
+      <h1>website design</h1>
       <p id="title">
         Progressive web applications with bleeding edge features for a
         comprehensive digital marketing solution.
       </p>
       <div className="cards">
         {props.features.map((feature) => {
-          return <Card {...feature} key={feature.title}/>;
+          return <Card {...feature} key={feature.title} />;
         })}
       </div>
       <style jsx>{`
@@ -19,11 +19,11 @@ function Main(props) {
           display: flex;
           flex-direction: column;
           width: 100%;
-          color: var(--gray1);
-          padding-top: 10vh;
+          color: var(--gray3);
+          padding-top: 20vh;
           margin-left: 0;
-          background-color: #fff;
-          align-items: center
+          background: var(--gray0) url('binding-dark.png');
+          align-items: center;
           
 
         }
@@ -41,16 +41,17 @@ function Main(props) {
 
         h1 {
           font-size: 100px;
-          flex: 1 1
+          flex: 1 1;
         }
 
         p#title {
           font-size: 20px;
-          font-weight: 400;
+          font-weight: 800;
+          font-family:'Gruppo';
           width: 45vw;
           line-height: 1.6em;
           padding-top: 1em;
-          color: #666666;
+          color: var(--green2);
           flex: 1 1;
           text-align: center
         }

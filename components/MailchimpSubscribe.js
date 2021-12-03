@@ -49,57 +49,66 @@ const CustomForm = () => {
       />
       <style jsx>
         {`
-      div {
-        font-size: 1.3rem;
-        margin-bottom: auto;
-      }
-
-      form {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        padding-top: 20px;
-        margin-right: auto;
-        margin-left: auto
-      }
-
-      input {
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          margin-right: auto;
-          margin-left: auto
-        }
-
-        input:focus {
-            outline: none;
-        }
-
-        input, text {
-          color: var(--gray2);
-          font-size: 1.2rem;
-        }
-        #submit {
-          background-color: #fff;
-          color: var(--gray1);
-          padding: 14px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-          margin-right: auto;
-          margin-left: auto;
-        }
-
-        @media and (max-width: 1024px) {
-          form {
-            flex-direction: column;
+          div {
+            font-size: 1.3rem;
+            margin-bottom: auto;
           }
-          
-        }
-      `}
+
+          form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+
+          input {
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid var(--gray2);
+            border-radius: 4px;
+            margin-right: 2rem;
+            margin-left: auto;
+            background-color: var(--green1);
+          }
+
+          input:focus {
+            outline: none;
+          }
+
+          input,
+          text {
+            color: var(--gray3);
+            font-size: 1rem;
+          }
+          #submit {
+            background-color: var(--gray4);
+            color: var(--green1);
+            padding: 14px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          #submit:hover {
+            background-color: var(--green2);
+            color: var(--gray2);
+          }
+
+          #email {
+            background-color: var(--gray2);
+            color: var(--gray3);
+          }
+          @media and (max-width: 1024px) {
+            form {
+              flex-direction: column;
+            }
+          }
+        `}
       </style>
     </div>
   );

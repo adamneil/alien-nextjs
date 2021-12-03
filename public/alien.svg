@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.4666672mm"
+   height="8.9958296mm"
+   viewBox="0 0 8.4666672 8.9958296"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="alien.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.49798681"
+     inkscape:cx="39.157663"
+     inkscape:cy="175.70746"
+     inkscape:window-width="1366"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.458943,-102.20714)">
+    <path
+       d="m 97.976843,106.22378 c 0.4318,0.73766 0.3683,1.60576 -0.14816,1.95659 -0.51647,0.34184 -1.28694,0.0225 -1.72297,-0.71517 -0.4318,-0.73765 -0.36407,-1.61475 0.1524,-1.95659 0.51647,-0.34184 1.28693,-0.0225 1.71873,0.71517 z m 0.71544,3.06758 c 0.84666,0 1.05833,-0.33735 1.05833,-0.33735 0,0 -0.21167,0.89959 -1.05833,0.89959 -0.84667,0 -1.05834,-0.88609 -1.05834,-0.89959 0,0 0.21167,0.33735 1.05834,0.33735 z m 2.434157,-3.78275 c 0.51647,0.34184 0.5842,1.21894 0.1524,1.95659 -0.43603,0.73766 -1.2065,1.05701 -1.722957,0.71517 -0.51647,-0.35083 -0.57997,-1.21893 -0.14817,-1.95659 0.4318,-0.73766 1.202267,-1.05701 1.718727,-0.71517 z m -2.434157,4.79478 c 1.05833,0 3.386657,-2.31193 3.386657,-4.04813 0,-1.73619 -1.51976,-3.14854 -3.386657,-3.14854 -1.8669,0 -3.38667,1.41235 -3.38667,3.14854 0,1.7362 2.32833,4.04813 3.38667,4.04813 z m 0,-8.09625 c 2.328327,0 4.233327,1.81716 4.233327,4.04812 0,1.83515 -2.40453,4.94771 -4.233327,4.94771 -1.8288,0 -4.23334,-3.11256 -4.23334,-4.94771 0,-2.23096 1.905,-4.04812 4.23334,-4.04812 z"
+       fill="#02e4c0"
+       id="path9"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>

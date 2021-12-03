@@ -13,5 +13,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-mailchimp-subscribe": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^2.0.1"
   }
 }

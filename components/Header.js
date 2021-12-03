@@ -1,12 +1,7 @@
 const Header = () => (
   <header>
-    <a
-      className="logo"
-      href="/"
-      style={{ color: "#111", textDecoration: "none" }}
-    >
-      <img src="logo.png" alt="logo" style={{ height: 20 }} />
-      <span>Boomtown Development</span>
+    <a className="logo" href="/" style={{ textDecoration: "none" }}>
+      <img src="logo.svg" alt="logo" style={{ height: 50 }} />
     </a>
 
     <style jsx>
@@ -17,38 +12,29 @@ const Header = () => (
           padding: 0;
         }
         header {
-          position: fixed;
+          position: relative;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
-          background-color: #fff;
-          padding: 30px 10%;
+          text-align: center;
+          background: var(--gray0) url("binding-dark.png");
+          padding: 30px 20%;
           vertical-align: middle;
           width: 100%;
-
         }
         a {
           display: flex;
           height: 20px;
         }
-        span {
-          display: flex;
-          align-items: center
-          font-family: "Roboto";
-          font-weight: bold;
-          margin-left: 2vw;
-          vertical-align: top;
-        }
         @media only screen and (max-width: 1024px) {
           a span {
-            display: none
+            display: none;
           }
           a {
             margin-left: auto;
-            margin-right: auto
+            margin-right: auto;
           }
         }
-
       `}
     </style>
   </header>
