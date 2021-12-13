@@ -14,12 +14,12 @@ const CustomForm = () => {
         render={({ subscribe, status, message }) => {
           switch (status) {
             case "sending":
-              return <div>Sending....</div>;
+              return <div id='success'>Sending....</div>;
             case "success":
-              return <div>Subscribed.</div>;
+              return <div id='success'>Subscribed.</div>;
             case "error":
               return (
-                <div
+                <div class="error"
                   dangerouslySetInnerHTML={{ __html: message }}
                   style={{ fontSize: "1.3rem", paddingTop: "20px" }}
                 />
@@ -52,6 +52,8 @@ const CustomForm = () => {
           div {
             font-size: 1.3rem;
             margin-bottom: auto;
+            color:white;
+            font-family: Gruppo
           }
 
           form {
@@ -99,6 +101,15 @@ const CustomForm = () => {
             color: var(--blue2) ;
           }
 
+          #success {
+            color:white;
+            font-family: Gruppo
+          }
+          #error{
+            color: white !important;
+            font-family: Gruppo
+          }
+
           #email {
             background-color: var(--gray2);
             color: var(--gray3);
@@ -108,6 +119,9 @@ const CustomForm = () => {
               flex-direction: column;
             }
           }
+          #mc_embed_signup #mce-success-response {
+            color: white;
+            }
         `}
       </style>
     </div>

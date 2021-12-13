@@ -11,6 +11,10 @@ const Header = () => (
           margin: 0;
           padding: 0;
         }
+        img {
+          filter: drop-shadow(0px 0px 1px #333333);
+
+        }
         header {
           position: relative;
           display: flex;

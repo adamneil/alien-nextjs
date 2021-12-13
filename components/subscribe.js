@@ -21,7 +21,7 @@ function Content() {
             src="logo.svg"
             alt="logo"
             style={{
-              width: 100,
+              height: 80,
               marginTop: "2rem",
               marginBottom: "0.01rem",
             }}
