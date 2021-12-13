@@ -23,13 +23,13 @@ const Card = (props) => {
           line-height: 1.4;
           letter-spacing: 0.1rem;
           padding-bottom: 0.4rem;
-          font-family: "Gruppo";
+          font-family: "Finger Paint";
           color: #347bda;
         }
         p {
           font-size: 14px;
           flex: 1 1;
-          color: #bef264
+          color: var(--gray6)
           ;
         }
       `}</style>
