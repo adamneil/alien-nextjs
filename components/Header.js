@@ -1,7 +1,7 @@
 const Header = () => (
   <header>
     <a className="logo" href="/" style={{ textDecoration: "none" }}>
-      <img src="logo.svg" alt="logo" style={{ height: 70 }} />
+      <img src="logo.svg" alt="logo" style={{ height: 80 }} />
     </a>
 
     <style jsx>
