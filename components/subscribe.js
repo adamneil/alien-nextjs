@@ -46,7 +46,7 @@ function Content() {
 
         a {
           text-decoration: none;
-          color: var(--gray3);
+          color: var(--blue2);
           text-align: center;
           padding-top: 8px;
           font-size: 1.25rem;
@@ -68,14 +68,14 @@ function Content() {
           font-size: 5rem;
           display: flex;
           flex-wrap: wrap;
-          color: var(--green1);
+          color: var(--blue2);
         }
 
         p {
           display: flex;
           text-align: center;
           padding: 1.5em;
-          color: var(--gray3);
+          color: #bef264;
           font-family: "Gruppo";
           font-weight: bold;
           font-size: 1.2rem;

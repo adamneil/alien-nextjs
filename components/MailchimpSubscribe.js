@@ -85,8 +85,8 @@ const CustomForm = () => {
             font-size: 1rem;
           }
           #submit {
-            background-color: var(--gray4);
-            color: var(--green1);
+            background-color: var(--gray6);
+            color: var(--blue2);
             padding: 14px 20px;
             border: none;
             border-radius: 4px;
@@ -95,8 +95,8 @@ const CustomForm = () => {
             margin-left: auto;
           }
           #submit:hover {
-            background-color: var(--green2);
-            color: var(--gray2);
+            background-color: #bef264;
+            color: var(--blue2) ;
           }
 
           #email {
