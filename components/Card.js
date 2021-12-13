@@ -24,13 +24,14 @@ const Card = (props) => {
           letter-spacing: 0.1rem;
           padding-bottom: 0.4rem;
           font-family: "Finger Paint";
-          color: #347bda;
+          color: var(--lime3);
         }
         p {
-          font-size: 14px;
+          font-size: 1.1rem;
           flex: 1 1;
-          color: var(--gray6)
+          color: var(--gray5)
           ;
+          font-family: 'Special Elite';
         }
       `}</style>
     </div>

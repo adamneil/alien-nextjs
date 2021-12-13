@@ -21,7 +21,7 @@ const Header = () => (
           justify-content: center;
           align-items: center;
           text-align: center;
-          background: var(--blue1) url("binding-dark.png");
+          background: var(--blue0) url("binding-dark.png");
           padding: 30px 10%;
           vertical-align: middle;
           width: 100%;

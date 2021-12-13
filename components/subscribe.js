@@ -3,8 +3,8 @@ import Newsletter from "../components/MailchimpSubscribe";
 function Content() {
   return (
     <div id="subscribe" className="container">
-      <h1>Subscribe to </h1>
-      <h1>our newsletter.</h1>
+      <h1 id="yela">Subscribe to </h1>
+      <h1 id="white">our newsletter.</h1>
       <p>
         Get the latest information on how to turn your small business into a
         digital success.
@@ -13,12 +13,11 @@ function Content() {
       <Newsletter />
 
       <div className="footer">
-        <a href="mailto: adam@boomtown.dev">adam@alien.dev</a>
-        <a href="tel:701-404-9151">‪(701) 404-9151</a>
+        
         <div class="my-64">
           <img
             class="fill-current"
-            src="logo.svg"
+            src="logo_inverse.svg"
             alt="logo"
             style={{
               height: 80,
@@ -27,8 +26,19 @@ function Content() {
             }}
           />
         </div>
+        <div>
+          
+        </div>
+        <a href="mailto: adam@boomtown.dev">adam@alien.dev</a>
+        <a id="white" href="tel:701-404-9151">‪(701) 404-9151</a>
       </div>
       <style jsx>{`
+      #yela {
+        color: var(--yellow0)
+      }
+        #white {
+          color: white !important;
+        }
         .container {
           width: 100%;
           display: flex;
@@ -46,12 +56,15 @@ function Content() {
 
         a {
           text-decoration: none;
-          color: var(--blue2);
-          text-align: center;
+          color: var(--yellow);
+          text-align: right;
           padding-top: 8px;
-          font-size: 1.25rem;
-          font-family: "Gruppo";
+          font-size: 1.1rem  !important;
+          font-family: "Special Elite";
           font-weight: bold;
+        }
+        a#white {
+          color: var(--gray6) !important
         }
 
         .footer {
@@ -75,8 +88,8 @@ function Content() {
           display: flex;
           text-align: center;
           padding: 1.5em;
-          color: #bef264;
-          font-family: "Gruppo";
+          color: var(--lime3);
+          font-family: "Special Elite";
           font-weight: bold;
           font-size: 1.2rem;
         }

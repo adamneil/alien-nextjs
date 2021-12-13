@@ -88,7 +88,7 @@ const CustomForm = () => {
           }
           #submit {
             background-color: var(--gray6);
-            color: var(--blue2);
+            color: var(--blue0);
             padding: 14px 20px;
             border: none;
             border-radius: 4px;
@@ -97,8 +97,8 @@ const CustomForm = () => {
             margin-left: auto;
           }
           #submit:hover {
-            background-color: #bef264;
-            color: var(--blue2) ;
+            background-color: var(--blue0);
+            color: var(--gray6) ;
           }
 
           #success {

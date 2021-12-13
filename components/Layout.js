@@ -35,16 +35,23 @@ const Layout = (props) => (
         --gray6: #f2f2f2;
         --red: #eb5757;
         --orange: #f2994a;
+        --yellow0: #facc15
+        ;
+        --lime: #a3e635
+;
+        --lime0: #acf92e;
+        --lime3: #7cc700;
         --yellow: #f2c94c;
         --green1: #219653;
         --green2: #27ae60;
         --green3: #6fcf97;
+        --blue0: #1e40af        ;
         --blue1: #2f80ed;
         --blue2: #2d9cdb;
         --blue3: #56ccf2;
         --purp1: #72f;
         --purp2: #61b;
-        --highlight-background: linear-gradient(145deg, #72f, #c1b);
+        --lsd-background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
       }
       * {
         box-sizing: border-box;

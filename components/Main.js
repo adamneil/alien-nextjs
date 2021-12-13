@@ -5,10 +5,10 @@ function Main(props) {
     <div className="container">
       <h1 id="span2">Out of this world</h1>
       <h1 id="span1">website design</h1>
-      <p id="title">
+      {/* <p id="title">
         Progressive web applications with bleeding edge features for a
         comprehensive digital marketing solution.
-      </p>
+      </p> */}
       <div className="cards">
         {props.features.map((feature) => {
           return <Card {...feature} key={feature.title} />;
@@ -22,14 +22,15 @@ function Main(props) {
           color: var(--gray6);
           padding-top: 10vh;
           margin-left: 0;
-          background: var(--blue1) url('binding-dark.png');
+          background: var(--blue0) url('binding-dark.png');
           align-items: center;
           
 
         }
         #span1 {
-          color:#fef08a
+          color: var(--yellow0);
 
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
 
         #span2 {
@@ -60,7 +61,7 @@ function Main(props) {
           width: 45vw;
           line-height: 1.6em;
           padding-top: 1em;
-          color: #bef264
+          color: var(--lime0)
           ;
           flex: 1 1;
           text-align: center
