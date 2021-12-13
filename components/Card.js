@@ -24,12 +24,13 @@ const Card = (props) => {
           letter-spacing: 0.1rem;
           padding-bottom: 0.4rem;
           font-family: "Gruppo";
-          color: var(--gray3);
+          color: #347bda;
         }
         p {
           font-size: 14px;
           flex: 1 1;
-          color: var(--gray2);
+          color: #bef264
+          ;
         }
       `}</style>
     </div>

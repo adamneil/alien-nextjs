@@ -1,7 +1,7 @@
 const Header = () => (
   <header>
     <a className="logo" href="/" style={{ textDecoration: "none" }}>
-      <img src="logo.svg" alt="logo" style={{ height: 50 }} />
+      <img src="logo.svg" alt="logo" style={{ height: 70 }} />
     </a>
 
     <style jsx>
@@ -17,7 +17,7 @@ const Header = () => (
           justify-content: center;
           align-items: center;
           text-align: center;
-          background: var(--gray0) url("binding-dark.png");
+          background: var(--blue1) url("binding-dark.png");
           padding: 30px 10%;
           vertical-align: middle;
           width: 100%;

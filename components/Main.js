@@ -3,8 +3,8 @@ import Card from "./Card";
 function Main(props) {
   return (
     <div className="container">
-      <h1>Out of this world</h1>
-      <h1>website design</h1>
+      <h1 id="span2">Out of this world</h1>
+      <h1 id="span1">website design</h1>
       <p id="title">
         Progressive web applications with bleeding edge features for a
         comprehensive digital marketing solution.
@@ -19,13 +19,22 @@ function Main(props) {
           display: flex;
           flex-direction: column;
           width: 100%;
-          color: var(--gray3);
+          color: var(--gray6);
           padding-top: 10vh;
           margin-left: 0;
-          background: var(--gray0) url('binding-dark.png');
+          background: var(--blue1) url('binding-dark.png');
           align-items: center;
           
 
+        }
+        #span1 {
+          color:#fef08a
+
+        }
+
+        #span2 {
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          
         }
         .cards {
           padding-top: 6rem;
@@ -46,12 +55,13 @@ function Main(props) {
 
         p#title {
           font-size: 20px;
-          font-weight: 800;
+          font-weight: 900;
           font-family:'Gruppo';
           width: 45vw;
           line-height: 1.6em;
           padding-top: 1em;
-          color: var(--green2);
+          color: #bef264
+          ;
           flex: 1 1;
           text-align: center
         }

@@ -9,10 +9,11 @@
   },
   "dependencies": {
     "framer-motion": "^2.6.5",
-    "next": "9.5.2",
+    "next": "^9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-mailchimp-subscribe": "^2.1.0"
+    "react-mailchimp-subscribe": "^2.1.0",
+    "styled-jsx": "^4.0.1"
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^2.0.1"
